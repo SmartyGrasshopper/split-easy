@@ -4,7 +4,8 @@ import "./../ListPage/ListPage.css";
 import Navbar from "./../../components/navbar/Navbar";
 import ListingImg from "./../../assests/listing.png"
 
-const serverURL = "https://grassx03.pythonanywhere.com";
+// const serverURL = "https://grassx03.pythonanywhere.com";
+const serverURL = "http://127.0.0.1:5000";
 
 const App = () => {
     const [data, setData] = useState(null); // Store JSON data

@@ -4,7 +4,8 @@ import './../AddPayment/AddPayment.css';
 import Navbar from "./../../components/navbar/Navbar";
 import PaymentImg from "./../../assests/add-payment-img.png";
 
-const serverURL = "https://grassx03.pythonanywhere.com";
+// const serverURL = "https://grassx03.pythonanywhere.com";
+const serverURL = "http://127.0.0.1:5000";
 
 function PaymentForm() {
     const [participants, setParticipants] = useState(JSON.parse(localStorage.getItem("paymentPageData")).participants); // Example participants

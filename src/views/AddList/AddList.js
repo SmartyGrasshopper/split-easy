@@ -6,7 +6,8 @@ import Navbar from "./../../components/navbar/Navbar"
 import AddListImg from "./../../assests/add-list img.png"
 
 function Add() {
-    const serverURL = "https://grassx03.pythonanywhere.com";
+    // const serverURL = "https://grassx03.pythonanywhere.com";
+    const serverURL = "http://127.0.0.1:5000";
     const [category, setCategory] = useState("");
     const [description, setDescription] = useState("");
     const [participants, setParticipants] = useState([""]); // Initialize with one participant input

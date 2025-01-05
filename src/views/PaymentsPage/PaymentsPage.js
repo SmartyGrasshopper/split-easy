@@ -5,7 +5,8 @@ import NodataImg from "./../../assests/no-data.png";
 import BackImg from "./../../assests/back (2).png";
 import HomeImg from "./../../assests/home-button.png"
 
-const serverURL = "https://grassx03.pythonanywhere.com";
+// const serverURL = "https://grassx03.pythonanywhere.com";
+const serverURL = "http://127.0.0.1:5000";
 
 const App = () => {
     const [data, setData] = useState(null); // Store JSON data

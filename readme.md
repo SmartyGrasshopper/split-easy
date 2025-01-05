@@ -87,6 +87,12 @@ To start a development server with `flask` on linux based os -
 To start a development server with `flask` on windows -
 `testing/startDevServer.bat` on the command prompt from the root folder.
 
+### Example Deployment
+
+This deployment uses [Pythonanywhere](https://www.pythonanywhere.com) for backend and [Netlify](https://www.netlify.com) for frontend.
+
+![Deployment Diagram for the example deployment.](./doc/minorProjectDeployment.drawio.png)
+
 ### Known errors and problems
 
 - Don't know why serving with 1 worker on gunicorn hangs with /payment/settlement/

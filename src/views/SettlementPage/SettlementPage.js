@@ -4,7 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import BackImg from "./../../assests/back (2).png";
 import HomeImg from "./../../assests/home-button.png"
 
-const serverURL = "https://grassx03.pythonanywhere.com";
+// const serverURL = "https://grassx03.pythonanywhere.com";
+const serverURL = "http://127.0.0.1:5000";
 
 const SettlementPage = () => {
     const [data, setData] = useState(null); // To store the fetched data
